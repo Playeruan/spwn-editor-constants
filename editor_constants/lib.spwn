@@ -1,0 +1,46 @@
+
+// sources: 
+// https://gdforum.freeforums.net/thread/35765/real-speed-cube-geometry-dash
+// https://gdforum.freeforums.net/thread/48749/p1kachu-presents-physics-geometry-dash
+
+// all the velocity constants are expressed in blocks per second
+
+constants = {
+    editor_height: 2385,
+    player_speed: {
+        slow: 8.3717,
+        normal: 10.3853,
+        double: 12.9132,
+        triple: 15.5982,
+        quadruple: 19.2,
+        half: 8.3717,
+        x1: 10.3853,
+        x2: 12.9132,
+        x3: 15.5982,
+        x4: 19.2,
+    },
+    yspeed_boost: {
+        yellow_pad: 2.77,
+        pink_pad: 1.79,
+        red_pad: 3.65,
+        blue_pad: -1.37,
+        yellow_orb: 1.91,
+        pink_orb: 1.37,
+        red_orb: 2.68,
+        blue_orb: -1.37,
+        green_orb: -1.91,
+        black_prb: -2.6,
+        yellow_pad_mini: 2.13,
+        pink_pad_mini: 1.32,
+        red_pad_mini: 1.71,
+        blue_pad_mini: -1.37,
+        yellow_orb_mini: 1.43,
+        pink_orb_mini: 0.94,
+        red_orb_mini: 2.05,
+        blue_orb_mini: -1.37,
+        green_orb_mini: -1.43,
+        black_prb_mini: -2.6,
+    },
+}
+
+return constants
